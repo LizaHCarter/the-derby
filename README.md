@@ -1,6 +1,6 @@
 ## name of project
 ### Code Badges
-build status icon
+[![Build Status](https://travis-ci.org/LizaHCarter/the-derby.svg)](https://travis-ci.org/LizaHCarter/the-derby)
 coverage status icon
 
 ### About
