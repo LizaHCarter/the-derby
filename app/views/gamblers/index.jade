@@ -3,4 +3,22 @@ block content
   h2 The Gamblers
   #gamblers
     each gambler in gamblers
-      include gambler
+      .gambler(data-gambler-id=gambler._id.toString())
+        .name= gambler.name
+        .photo(style='background-image:url(#{gambler.photo});')
+        .cash  $#{gambler.cash}
+        .results
+          span.wins Wins: #{gambler.results.wins},
+          span.losses  Losses: #{gambler.results.losses},
+        .spouseHead Spouse
+        .spouse= gambler.spouse.name
+        .spousePhoto(style='background-image:url(#{gambler.spouse.photo})')
+        .assets
+        ul 
+          .assetsTitle Assets
+            each asset in gambler.assets
+              li.photo(style='background-image:url(#{asset.photo})')
+                button.asset #{asset.name} $#{asset.value}
+
+block scripts
+    script(src='/js/user/gambler.js')

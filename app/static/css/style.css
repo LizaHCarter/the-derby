@@ -64,11 +64,18 @@ nav{
   margin-bottom: 10px;
 }
 li.photo{
+  position: relative;
   height: 300px;
   width: 100%;
   background-size: cover;
   border-bottom: 1px solid white;
   margin-bottom: 10px;
+}
+li.photo button{
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  right: 10px;
 }
 
 .spouseHead, .assetsTitle {
