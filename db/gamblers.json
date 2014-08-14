@@ -1,0 +1,30 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"Colonel Mustard",
+  "spouse":{"name":"Mrs. White", "photo": "http://img.geocaching.com/cache/b4964cf7-b865-4e17-9f80-028c919a474a.jpg"},
+  "photo":"http://img.geocaching.com/cache/190199e0-59e3-4f07-890a-38c60a023a48.jpg",
+  "cash": 1500,
+  "assets":[{"name":"ring", "photo":"http://www.cmstatic1.com/9435/c/vintage-style-diamond-ring-in-white-gold--UDU2Ny05NDM1LjExMTMwMg==.jpg", "value":750}, {"name":"boat", "photo":"http://coolwallpaperz.info/user-content/uploads/wall/o/69/boat-desktop-of-a-small-fishing-at-low-tide-278663.jpg", "value":400}],
+  "results":{"wins":2, "losses":2}
+}
+
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Mr. Green",
+  "spouse":{"name":"Mrs. Peacock", "photo": "http://img.geocaching.com/cache/72cc99b6-a483-48bf-80c8-e5f664d2b88f.jpg"},
+  "photo":"http://img.geocaching.com/cache/4928c4d9-6fac-456a-84b8-30896307d94c.jpg",
+  "cash": 2000,
+  "assets":[{"name":"coin collection", "photo":"http://grandmastercoins.com/wp-content/uploads/2014/01/3col_lg_old_coin_collection.jpg", "value":250}, {"name":"timeshare", "photo":"http://www.so-many-places.com/wp-content/uploads/2012/10/timeshare-photo.jpg", "value":900}],
+  "results":{"wins":3, "losses":1}
+}
+
+{
+  "_id":{"$oid":"000000000000000000000003"},
+  "name":"Professor Plum",
+  "spouse":{"name":"Miss Scarlett", "photo": "http://img.geocaching.com/cache/ea9e5104-b9a3-41b1-8f3c-2c8b075f603d.jpg"},
+  "photo":"http://img.geocaching.com/cache/2b6641ea-93b9-492b-a580-2cbb68081052.jpg",
+  "cash": 1000,
+  "assets":[{"name":"motorbike", "photo":"http://www.wavecrest.co.uk/images/motorbike0.jpg", "value": 950}, {"name":"vintage pocketwatch", "photo":"http://www.katherineandkieran.com/UserFiles/Image/pocket_watch.jpg", "value": 200}],
+  "results":{"wins":1, "losses":3}
+}
+

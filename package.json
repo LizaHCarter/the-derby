@@ -1,5 +1,5 @@
 {
-  "name": "the derby",
+  "name": "the-derby",
   "version": "0.0.0",
   "description": "Derby application for gambling on horse races",
   "main": "app/index.js",

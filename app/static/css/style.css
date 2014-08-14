@@ -1,12 +1,84 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Quicksand|Montserrat|Luckiest+Guy);
 
 *{
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
+  color: white;
 }
 
 body{
-  background-image: url(/img/node.png);
+  background-image: url('https://farm3.staticflickr.com/2901/13897379577_59d55ef0ce_z.jpg');
   background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: white;
+  text-align: center;
 }
 
+h1{
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-outline: black;
+}
+nav{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.gambler{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: #888888;
+}
+
+.gambler .name{
+  font-family: 'Luckiest Guy', cursive;
+  padding: 5px;
+  font-size: 28px;
+}
+
+.gambler .photo{
+  height: 315px;
+  width: 100%;
+  float: center;
+  background-size: cover;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+.gambler .spousePhoto{
+  height: 315px;
+  width: 100%;
+  background-size: cover;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+li.photo{
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.spouseHead, .assetsTitle {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+}
