@@ -78,7 +78,7 @@ li.photo button{
   right: 10px;
 }
 
-.spouseHead, .assetsTitle {
+.spouseHead, .assetsTitle, h2 label {
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
   margin-top: 20px;
@@ -88,4 +88,8 @@ h2{
   text-align: center;
   font-family: 'Luckiest Guy', cursive;
   font-size: 40px;
+}
+
+#newGambler input, #newSpouse input{
+  color: black
 }
